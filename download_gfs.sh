@@ -10,7 +10,7 @@ TOPLAT="90"
 BOTTOMLAT="-90"
 
 # Path to the grib2json executable
-GRIB2JSON_PATH="C:\\Users\\4303sattar\\Downloads\\yes\\weacast-grib2json\\bin\\grib2json"
+GRIB2JSON_PATH="PATH"
 
 # File to store the last download date and time
 LAST_RUN_FILE="last_run.txt"

@@ -2,7 +2,7 @@ import mapboxgl from 'mapbox-gl';
 import WindLayer from '@jindin/mapbox-gl-wind-layer';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiZW5ncmtpIiwiYSI6ImNrc29yeHB2aDBieDEydXFoY240bXExcWoifQ.WS7GVtVGZb4xgHn9dleszQ';
+mapboxgl.accessToken = 'TOKEN';
 
 const map = new mapboxgl.Map({
   container: 'map',
@@ -21,7 +21,7 @@ const getLatestJsonFile = () => {
   jsonFiles.sort((a, b) => {
     const dateA = a.match(/(\d{4})(\d{2})(\d{2})/);
     const dateB = b.match(/(\d{4})(\d{2})(\d{2})/);
-    
+
     if (!dateA || !dateB) return 0;
 
     return new Date(dateB[0]) - new Date(dateA[0]);
