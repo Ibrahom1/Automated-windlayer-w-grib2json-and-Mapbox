@@ -2,7 +2,7 @@ import mapboxgl from 'mapbox-gl';
 import WindLayer from '@jindin/mapbox-gl-wind-layer';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
-mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN';
+mapboxgl.accessToken = 'pk.eyJ1IjoiZW5ncmtpIiwiYSI6ImNrc29yeHB2aDBieDEydXFoY240bXExcWoifQ.WS7GVtVGZb4xgHn9dleszQ';
 
 const map = new mapboxgl.Map({
   container: 'map',
@@ -86,6 +86,12 @@ map.on('load', async () => {
               "rgb(0,204,255)",  // Lighter Blue
               "rgb(0,153,255)",  // Light Blue
               "rgb(0,102,255)"   // Lighter Dark Blue
+              // 'purple',
+              // 'red',
+              // 'yellow',
+              // 'green',
+              // 'blue'
+
             ],
             frameRate: 30, // less framerate is equal to more particles loaded per frame
             maxAge: 60,    // age of particles

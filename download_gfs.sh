@@ -1,5 +1,5 @@
 #!/bin/bash
-START_DATE="20240716"
+START_DATE="20240717"
 START_TIME="00"
 INTERVALS=("00" "06" "12" "18")
 BASE_URL="https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_1p00.pl"
@@ -10,7 +10,7 @@ TOPLAT="90"
 BOTTOMLAT="-90"
 
 # Path to the grib2json executable
-GRIB2JSON_PATH="your/path/to/grib2json"
+GRIB2JSON_PATH="C:\\Users\\4303sattar\\Downloads\\yes\\weacast-grib2json\\bin\\grib2json"
 
 # File to store the last download date and time
 LAST_RUN_FILE="last_run.txt"
